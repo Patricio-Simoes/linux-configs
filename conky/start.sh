@@ -7,5 +7,6 @@ sleep 2s
 # Only the config(s) listed below will be avtivated
 conky -c $HOME/.config/conky/config.conf &> /dev/null &
 conky -c $HOME/.config/conky/ring.conf &> /dev/null &
+conky -c $HOME/.config/conky/side-config.conf &> /dev/null &
 
 exit
