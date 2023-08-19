@@ -4,6 +4,7 @@
 
 sudo apt install curl -y
 sudo apt install distrobox -y
+sudo apt install gcolor3 -y
 sudo apt install gedit -y
 sudo apt install gimp -y
 sudo apt install git -y
@@ -15,6 +16,7 @@ sudo apt install neofetch -y
 sudo apt install rofi -y
 sudo apt install timeshift -y
 sudo apt install vlc -y
+sudo apt install zip -y
 
 ##############
 # QEMU Setup #
