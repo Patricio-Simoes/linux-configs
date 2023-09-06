@@ -43,6 +43,13 @@ sudo usermod -aG kvm $USER
 sudo usermod -aG input $USER
 sudo usermod -aG disk $USER
 
+###################
+# Microsoft Fonts #
+###################
+
+sudo apt install ttf-mscorefonts-installer -y
+sudo apt install fonts-roboto -y
+
 ################
 # Starship CLI #
 ################
