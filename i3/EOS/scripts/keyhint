@@ -1,0 +1,25 @@
+#!/bin/bash
+
+Main() {
+    source /usr/share/endeavouros/scripts/eos-script-lib-yad || return 1
+
+    local command=(
+        eos_yad --title="EndeavourOS i3-wm keybindings:" --no-buttons --geometry=400x345-15-400 --list
+        --column=Key: --column=Description: --column=Command:
+        "ESC" "Close this app" ""
+        " = " "Modkey" ""
+        " + B" "Browser" "Firefox"
+        " + C" "Code" "Code"
+        " + F" "Filebrowser" "Thunar"
+        " + K" "KeepassXC" "KeepassXC"
+        " + D" "Rofi" "Rofi"
+        " + Enter" "Terminal" "XFCE4-Terminal"
+        " + Q" "Close focused app" ""
+        " + Shift + P" "Power menu" ""
+        " + Shift + E" "Logout menu" ""
+    )
+
+    "${command[@]}"
+}
+
+Main "$@"
