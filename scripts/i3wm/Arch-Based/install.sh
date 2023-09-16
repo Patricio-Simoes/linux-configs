@@ -7,8 +7,10 @@ sudo pacman -S filezilla
 sudo pacman -S gimp
 sudo pacman -S gufw
 sudo pacman -S keepassxc
+sudo pacman -S libreoffice-fresh
 sudo pacman -S neofetch
 sudo pacman -S veracrypt
+sudo pacman -S vlc
 
 #########
 # Fonts #
