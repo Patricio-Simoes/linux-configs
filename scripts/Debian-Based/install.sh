@@ -4,19 +4,14 @@
 
 sudo apt install curl -y
 sudo apt install distrobox -y
-sudo apt install gcolor3 -y
-sudo apt install gedit -y
+sudo apt install filezilla -y
 sudo apt install gimp -y
 sudo apt install git -y
-sudo apt install gnome-shell-extension-manager -y
-sudo apt install gufw -y
+sudo apt install ufw -y
 sudo apt install keepassxc -y
 sudo apt install libavcodec-extra -y
 sudo apt install neofetch -y
-sudo apt install rofi -y
-sudo apt install timeshift -y
 sudo apt install vlc -y
-sudo apt install zip -y
 
 ##############
 # QEMU Setup #
@@ -51,9 +46,11 @@ sudo apt install ttf-mscorefonts-installer -y
 sudo apt install fonts-roboto -y
 
 ################
-# Starship CLI #
+# autocpu-freq #
 ################
 
-curl -sS https://starship.rs/install.sh | sh
+#git clone https://github.com/AdnanHodzic/auto-cpufreq.git
+#cd auto-cpufreq && sudo ./auto-cpufreq-installer
+#sudo auto-cpufreq --install
 
 sudo apt update && sudo apt upgrade

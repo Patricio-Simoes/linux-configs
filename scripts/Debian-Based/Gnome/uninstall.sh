@@ -33,7 +33,6 @@ sudo apt remove --purge gnome-weather -y
 sudo apt remove --purge hitori -y
 sudo apt remove --purge iagno -y
 sudo apt remove --purge im-config -y
-sudo apt remove --purge libreoffice* -y
 sudo apt remove --purge lightsoff -y
 sudo apt remove --purge malcontent -y
 sudo apt remove --purge quadrapassel -y
